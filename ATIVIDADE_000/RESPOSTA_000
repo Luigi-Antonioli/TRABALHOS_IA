@@ -1,0 +1,14 @@
+ATIVIDADE 000
+
+- Traga 1 exemplo real (app mobile, web ou desktop) de aplicação de IA em um software. 
+- Software + problema (1 frase) Funcionalidade de IA (o que faz) + entrada/saída - Técnica provável (ex.: classificação, recomendação, LLM/RAG, visão) 
+- Métrica de sucesso (como medir) 
+
+Exemplo real: YOUTUBE
+Software + problema: Telespectador com problemas de interpretação dos vídeos assistidos. 
+IA (funcionalidade): Um inteligência artificial que verifica todas as palavras do vídeo e transcreve em um resumo, meio de pesquisa rápida para dúvidas durante o vídeo, funcionando como um guia.
+Entrada: Questionamento
+Saída: Resposta com base na pesquisa da entrada relacionado ao vídeo em que está assistindo.
+Técnica provável: rápido entendimento nas informações descritas no vídeo. 
+Métrica de sucesso: Dúvidas do espectador vs respostas completas.
+Negócio: Melhora no entendimento do público e compreensão no vídeo.
