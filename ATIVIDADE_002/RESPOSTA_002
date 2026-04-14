@@ -1,0 +1,31 @@
+# ATIVIDADE 002
+
+1) Importância da Preparação de Dados
+Resposta: A importância da preparação de dados está voltada diretamente à qualidade da informação fornecida ao modelo. Sendo assim, mesmos algoritmos falham quando os dados contêm informações incompatíveis ou um certo desbalanceamento.
+
+2) Valores Ausentes
+Resposta: Quando tratamos de valores ausentes, temos a estratégia da remoção de registros, imputação por modelos preditivos. Mesmo assim, devemos saber que remover registros é inadequado quando há grande perda de dados ou quando a ausência contém informação relevante.
+
+3) Normalização vs Padronização
+Resposta: A normalização reescala valores para intervalo. Já a padronização transforma dados para média 0 com desvio padrão de 1. Esses algoritmos baseados em distância exigem escalonamento.
+
+4) Dados Categóricos
+Resposta: Os dados categóricos podem ser transformados em uma via de codificação número simples que pode induzir a falsa relação ordinal.
+
+5) Separação de Dados
+Resposta: A separação de dados é importante, por que se trata de um treino que ajusta o modelo, busca a validação em ajustar hiperparâmetros e testa o desempenho final. Com esse uso, na parte do treinamento, gera vazamento de dados e avaliação irreal.
+
+6) Balanceamento de Classes
+Resposta: Modo para prever as classes majoritárias. Técnicas: Oversampling (SMOTE),Undersampling, ajuste de pesos. 
+
+7) Outliers
+Resposta: Os valores extremos são os outliers que não estão no padrão dos outros, ele podem ser detectados via Z-score e IQR, algumas remoção errônea pode excluir eventos importantes.
+
+8) Feature Engineering
+Resposta: Pega o dado da data de nascimento e deixa a variável relevante ao modelo e reduz a sua complexidade
+
+9) Pipeline de Pré-processamento
+Resposta: A pipeline é separada por etapas, que sao: valores ausentes, balancear clases, dividir e codificar categóricos.
+
+10) Estudo de Caso – Crédito Bancário
+Resposta: Irá verificar as inconsistências, separar dados, avaliar desbalanceamento, codificar estado civil e escalar renda.
